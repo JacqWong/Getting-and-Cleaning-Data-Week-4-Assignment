@@ -24,34 +24,42 @@ The script performs the following steps:
 - Assign descriptive activity names to name the activities.
 - Changed the abbreviated descriptions accordingly:
 "t" to "time",
-"f" to "frequency"
-"Acc" to "Accelerometer"
-"Gyro" to "Gyroscope"
-"Mag" to "Magnitude"
-"BodyBody" to "Body"
+"f" to "frequency",
+"Acc" to "Accelerometer",
+"Gyro" to "Gyroscope",
+"Mag" to "Magnitude",
+"BodyBody" to "Body",
 - Creates a second independent tidy data set with the average of each variable for each activity and each subject
 
 ## The tidy.txt includes:
-1. Subject ID: from 1 to 30. 
-2. Activity Labels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+1. Subject ID: from 1 to 30
+
+2. Activity Labels: 
+- WALKING
+- WALKING_UPSTAIRS
+- WALKING_DOWNSTAIRS
+- SITTING
+- STANDING
+- LAYING
+
 3. For each subject and each activity, the average mean and std (i.e., standard deviation) for each signal:
--timeBodyAccelerometer -XYZ
--timeGravityAccelerometer-XYZ
--timeBodyAccelerometerJerk-XYZ
--timeBodyGyroscope-XYZ
--timeBodyGyroscopeJerk-XYZ
--timeBodyAccelerometerMagnitude
--timeGravityAccelerometerMagnitude
--timeBodyAccelerometerJerkMagnitude
--timeBodyGyroscopeMagnitude
--timeBodyGyroscopeJerkMagnitude
--frequencyBodyAccelerometer -XYZ
--frequencyBodyAccelerometer Jerk-XYZ
--frequencyBodyGyroscope-XYZ
--frequencyBodyAccelerometerMagnitude
--frequencyBodyAccelerometerJerkMagnitude
--frequencyBodyGyroscopeMagnitude
--frequencyBodyGyroscopeJerkMagnitude
+- timeBodyAccelerometer XYZ
+- timeGravityAccelerometer XYZ
+- timeBodyAccelerometerJerk XYZ
+- timeBodyGyroscope XYZ
+- timeBodyGyroscopeJerk XYZ
+- timeBodyAccelerometerMagnitude
+- timeGravityAccelerometerMagnitude
+- timeBodyAccelerometerJerkMagnitude
+- timeBodyGyroscopeMagnitude
+- timeBodyGyroscopeJerkMagnitude
+- frequencyBodyAccelerometer XYZ
+- frequencyBodyAccelerometer Jerk XYZ
+- frequencyBodyGyroscope XYZ
+- frequencyBodyAccelerometerMagnitude
+- frequencyBodyAccelerometerJerkMagnitude
+- frequencyBodyGyroscopeMagnitude
+- frequencyBodyGyroscopeJerkMagnitude
 
 ### Reference
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. A Public Domain Dataset for Human Activity Recognition Using Smartphones. 21th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, ESANN 2013. Bruges, Belgium 24-26 April 2013.
